@@ -3,7 +3,7 @@ import scipy.linalg as linalg
 from butcher_tableau import constant_matrix
 from scipy import sparse
 
-from scipy.sparse.linalg.dsolve import linsolve
+
 
 def mcs(functions, initial_y, initial_t, delta_t):
     """
